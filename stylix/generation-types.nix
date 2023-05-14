@@ -49,5 +49,6 @@ with lib;
         type = "slideshow";
         image = builtins.elemAt listOfImages 0;
         files = listOfImages;
+        delay = 5;
     };
 }
